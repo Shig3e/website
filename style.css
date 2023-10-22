@@ -1,0 +1,63 @@
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgb(3,9,13,1), rgb(20, 14, 68) 55%, rgba(3,9,13,1) 100%);
+    font-family: 'Brush Script MT', cursive;
+    color:#ae00ff;
+}
+
+ol {
+list-style-type:none;
+padding:1px;
+margin:10px;
+font-size:18px;
+height:2em;
+line-height:2em;
+text-align:center;
+float: right;
+}
+
+ol a {
+display:block;
+text-decoration:none;
+color:#ae00ff;
+padding:0 5px;
+}
+
+ol > li {
+float:left;
+width:150px;
+margin-left:1px;
+height:2em;
+}
+
+ol > li:first-child {
+margin-left:0;
+}
+
+ol > li:hover > a {
+color: rgb(255, 0,0);
+}
+
+ol > li:hover > ul {
+display:block;
+}
+
+
+ol > li > ul {
+display:none;
+list-style-type:none;
+padding:0;
+margin:0;
+}
+
+ol > li > ul > li {
+position:relative;
+}
+
+ol > li > ul > li:hover > a {
+color:rgb(255, 0, 0);
+}
+
+h1 {
+    float: left;
+}
